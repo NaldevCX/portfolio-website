@@ -1,31 +1,81 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Montserrat', sans-serif; */
 
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.header-font-h{
+    font-size: 4em;
+     font-family: 'Bebas Neue', cursive; 
+
+}
+
+.header-font-hs{
+    font-size: 1em;
+     font-family: 'Bebas Neue', cursive; 
+
+}
+.body-font-s{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 0.7em;
+    }
+
+.body-font-m{
+font-family: 'Montserrat', sans-serif; 
+font-size: 1em;
+}
+.body-font-ml{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.5em;
+    }
+
+.body-font-l{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2em;
+}
+
+
+.icon-s{
+    margin: 2%; 
+    max-width: 64px;
+    height: 10%;
+}
+
+.icon-m{
+    margin: 2%; 
+    max-width: 100%;
+    height: 90%;
+    border-radius:25px;
+}
 /* Layout */
 
- /* navbar */
-.top-nav{
-    filter: drop-shadow(0px 2px 3px gray);
-}
 
 /* introduction */
 
 
 .desc-container{
-    background-color:#FAFAFA;
-    padding: 18rem 1.5rem;
-
+    background-color:#353535;
+    padding-top: 10% ;
+    padding-bottom: 10% ;
+    width: 100%;
 }
 
 
 .desc-card{
-    border-radius: 20px;
-    background-color:#ffffff;
-    padding: 2rem 2.5rem;
-    color: black;
+    
+    padding: 2rem ;
+    background-color: rgb(49, 49, 49);
+    color: white;
     margin: 0 auto;
     width: 80%;
-    max-width: 1024px;
-    filter: drop-shadow(5px 5px 2px grey);
+    max-width: 100%;
+    filter: drop-shadow(2px 2px 2px rgb(4, 4, 4));
 }
 
 
@@ -35,28 +85,196 @@
     /* border: red solid; */
     
 }
+
+.desc-content{
+   
+}
 .d-f-col{
     /* border: blue solid; */
-    margin-left: 20px;
+    
 
 }
 
 
 .face-pic{
-    width: 25%;
+    width: 20%;
     height: 100%;
-    border-radius: 2%;
+    border-radius: 1%;
    
 }
 
-/* Intro Media Queries */
 
-@media (max-width:769px){
+/* About Me */
+
+
+.a-f-col{
+    text-align: center;
+}
+
+.about-container{
+    background-color: #efefef;
+    padding: 10rem 1.5rem;
+
+}
+.about-card{
+ 
+    
+    color: black;
+    margin: 0 auto;
+    width: 80%;
+   
+    
+}
+
+
+.about-flex{
+    display:flex;
+    flex-direction:row;
+
+    /* border: red solid; */
+    
+}
+.about-content{
+
+    width: 90%;
+    margin: 2%;
+    
+    /* border: blue solid; */
+    
+
+}
+
+.about-content:nth-child(odd){
+padding-right: 4%;
+border-color: gray;
+border-right: 1px solid;
+
+
+}
+
+.a-f-col{
+    margin-bottom: 5%;
+}
+
+
+
+/*    JOB EXPERIENCE   */
+
+.j-mid-header{
+    text-align: center;
+    font-size: 4em;
+
+}
+.j-left-header{
+    padding-top: 5%;
+    text-align: left;
+    
+}
+
+.j-right-header{
+    padding-top: 5%;
+    text-align: right;
+   
+}
+
+
+.experience-container{
+
+    padding-top: 10rem;
+    display:flex;
+    flex-direction:column;
+
+
+}
+.experience-card{
+    padding-top: 5%;
+
+  
+    color: black;
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+
+.experience-flex{
+    margin: 2%;
+    display:flex;
+    flex-direction:row;
+
+    /* border: red solid; */
+    
+}
+.experience-flex:nth-child(even){
+    margin: 2%;
+    display:flex;
+    flex-direction:row-reverse;
+    text-align: right;
+
+    /* border: red solid; */
+    
+}
+.experience-content{
+    align-self: center;
+    width: 80%;
+    margin: 5% 0%;
+    
+    /* border: blue solid; */
+    
+
+}
+
+
+/* footer */
+
+.footer{
+    
+    padding: 2% 0;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.footer-container{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+
+.footer-brand{
+    font-size: 1.5em;
+    font-style: bold;
+    padding: 5% 0;
+}
+
+.footer-list-social{
+    width: 50%;
+   
+    
+}
+
+.icons{
+    margin-left: 2%;
+}
+
+
+@media (max-width:980px){
+
+    .desc-container{
+        width: 100%;
+        background-color:#353535;
+ 
+    }
     .desc-card{
+        
         font-size: 0.9rem;
-        margin: 0 auto;
-        width: 90%;
-        text-align: center;
+      
+     
+        
        
     }
 
@@ -77,34 +295,164 @@
         width: 60%;
        
     }
-}
+   
 
-/* About Me */
-.about-container{
-    background-color:#ffffff;
-    padding: 18rem 1.5rem;
+    .desc-container{
+        background-color:#353535;
+    
+    }
 
-}
-.about-card{
-    border-radius: 20px;
+    .header-font-h{
+        font-size: 2em;
+         font-family: 'Bebas Neue', cursive; 
+    
+    }
+    .body-font-ml{
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 1em;
+        }
+        .about-container{
+            background-color: #efefef;
+            padding: 10rem 0rem;
+        
+        }
+    .about-flex{
+        display:flex;
+        flex-direction: column;
+    
+        /* border: red solid; */
+        
+    }
 
-    padding: 2rem 2.5rem;
-    color: black;
-    margin: 0 auto;
-    width: 80%;
-    max-width: 1024px;
-}
+    .about-content:nth-child(odd){
+        padding-right: 4%;
+      
+        border-right: 1px none;
+        
+        
+        }
 
+        .about-card{
 
-.about-flex{
-    display:flex;
-    flex-direction:column;
+            padding: 2rem 2.5rem;
+            color: black;
+            margin: 0 auto;
+            width: 100%;
+            
+        }
+        .about-content{
 
-    /* border: red solid; */
+            width: 100%;
+            margin: 2%;
+            
+            /* border: blue solid; */
+            
+        
+        }
+
+        .icon-m{
+            margin: 2%; 
+            max-width: 100%;
+            height: 80%;
+            border-radius:25px;
+          
+        }
+
+        .j-left-header{
+            text-align: left;
+           
+        }
+
+        
+.j-right-header{
+    padding-top: 5%;
+    text-align: right;
     
 }
-.a-f-col{
-    /* border: blue solid; */
-    margin-left: 20px;
 
+
+        .experience-flex{
+            margin: 2%;
+            display:flex;
+            flex-direction:column;
+        
+            /* border: red solid; */
+            
+        }
+        .experience-flex:nth-child(even){
+            margin: 2%;
+            display:flex;
+            flex-direction:column;
+        
+            /* border: red solid; */
+            
+        }
+
+        .footer{
+    
+     
+            background-color: #1e1e1e;
+            color: white;
+        }
+        
+        .footer-container{
+            text-align: center;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        
+        .footer-brand{
+         
+            font-style: bold;
+            padding: 30% 0%; 
+        }
+        
+        .footer-list-social{
+            width: 100%;
+            padding-bottom:20%;
+        }
+        
+        .icons{
+          size: 25px;
+        }
+
+        .header-font-h{
+            font-size: 2em;
+             font-family: 'Bebas Neue', cursive; 
+             text-align: center;
+        
+        }
+
+        .header-font-hs{
+            font-size: 1.5em;
+             font-family: 'Bebas Neue', cursive; 
+             text-align: center;
+        }
+        .body-font-ml{
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 1em;
+            text-align: center;
+            }
+        
+            .body-font-s{
+                font-family: 'Montserrat', sans-serif; 
+                font-size: 0.4em;
+                text-align: center;
+                }
+            
+            .body-font-m{
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 0.7em;
+            text-align: center;
+            }
+            .body-font-l{
+                font-family: 'Montserrat', sans-serif; 
+                font-size: 1em;
+                text-align: center;
+            }
+        
 }
