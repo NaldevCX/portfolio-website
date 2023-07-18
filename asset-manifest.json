@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.4375ae22.css",
-    "main.js": "/portfolio-website/static/js/main.132fcc78.js",
-    "static/media/face.jpg": "/portfolio-website/static/media/face.8a919ca08907a0e72be4.jpg",
-    "static/media/jnc.png": "/portfolio-website/static/media/jnc.28bb18e78749a1ab1db0.png",
-    "static/media/pg-page.png": "/portfolio-website/static/media/pg-page.45e84c0998266342eade.png",
-    "static/media/sql.png": "/portfolio-website/static/media/sql.60fe462b4dec8bbc0292.png",
-    "static/media/php.png": "/portfolio-website/static/media/php.acca66aacfbf3b7b5309.png",
-    "static/media/ExpenseTrack1.png": "/portfolio-website/static/media/ExpenseTrack1.a1ce3805d434909f49e0.png",
-    "static/media/linux.png": "/portfolio-website/static/media/linux.70337081e836b4df0e3f.png",
-    "static/media/reactjs.png": "/portfolio-website/static/media/reactjs.7fc1ee8dcf2d6567f645.png",
-    "static/media/javascript.png": "/portfolio-website/static/media/javascript.ca691704283b1badf98c.png",
-    "static/media/java.png": "/portfolio-website/static/media/java.fc241426afd8f52a312e.png",
-    "static/media/bootstrap.png": "/portfolio-website/static/media/bootstrap.e94a80856cc0cb492938.png",
-    "static/media/css.png": "/portfolio-website/static/media/css.5d3f585222f506795d53.png",
-    "static/media/html.png": "/portfolio-website/static/media/html.434da7e0bf357c3b0ba9.png",
-    "index.html": "/portfolio-website/index.html",
-    "main.4375ae22.css.map": "/portfolio-website/static/css/main.4375ae22.css.map",
-    "main.132fcc78.js.map": "/portfolio-website/static/js/main.132fcc78.js.map"
+    "main.css": "./static/css/main.4375ae22.css",
+    "main.js": "./static/js/main.56ec246a.js",
+    "static/media/face.jpg": "./static/media/face.8a919ca08907a0e72be4.jpg",
+    "static/media/jnc.png": "./static/media/jnc.28bb18e78749a1ab1db0.png",
+    "static/media/pg-page.png": "./static/media/pg-page.45e84c0998266342eade.png",
+    "static/media/sql.png": "./static/media/sql.60fe462b4dec8bbc0292.png",
+    "static/media/php.png": "./static/media/php.acca66aacfbf3b7b5309.png",
+    "static/media/ExpenseTrack1.png": "./static/media/ExpenseTrack1.a1ce3805d434909f49e0.png",
+    "static/media/linux.png": "./static/media/linux.70337081e836b4df0e3f.png",
+    "static/media/reactjs.png": "./static/media/reactjs.7fc1ee8dcf2d6567f645.png",
+    "static/media/javascript.png": "./static/media/javascript.ca691704283b1badf98c.png",
+    "static/media/java.png": "./static/media/java.fc241426afd8f52a312e.png",
+    "static/media/bootstrap.png": "./static/media/bootstrap.e94a80856cc0cb492938.png",
+    "static/media/css.png": "./static/media/css.5d3f585222f506795d53.png",
+    "static/media/html.png": "./static/media/html.434da7e0bf357c3b0ba9.png",
+    "index.html": "./index.html",
+    "main.4375ae22.css.map": "./static/css/main.4375ae22.css.map",
+    "main.56ec246a.js.map": "./static/js/main.56ec246a.js.map"
   },
   "entrypoints": [
     "static/css/main.4375ae22.css",
-    "static/js/main.132fcc78.js"
+    "static/js/main.56ec246a.js"
   ]
 }
