@@ -1,6 +1,6 @@
 {
   "name": "portfolio-website",
-  "homepage": "http://NaldevCX.github.io/portfolio-website",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
